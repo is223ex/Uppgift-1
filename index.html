@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap" rel="stylesheet">
+    <title>Datakommunikation</title>
+</head>
+
+<body>
+    <ul>
+        <li><a href="index.html">Datakommunikation</a></li>
+        <li><a href="side2.html">HTML</a></li>
+        <li><a href="side3.html">CSS</a></li>
+    </ul>
+
+    <div class="box-holder">
+        <div class="box">
+            <div class="box-content">
+                <h3>Vad avses med termerna klient och server?</h3>
+                <p><strong>Klient</strong> är det som används på användares dator/telefon.<strong> Klienten</strong> gör begäran för typ av tjänst, adress till resurs och returadessen. <strong>Server</strong> är ofta det som samverkar med<strong> Klienten</strong>. När användaren gör en begäran så skickas den till servern. Servern skickar tillbaka den begärda informationen till användarens klient.</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-content">
+                <h3>Beskriv vad var och en av protokollen TCP och IP gör på sändande och mottagande sida.</h3>
+                <p>TCP förkortning för Transmission Control Protocol fungerar som en mellanhand. Den kan dela upp ett meddelande i paket sedan numrera paketen och skicka vidare det till den undre nivån även kallat IP.
+                    IP fungerar som en typ av adress så att när den mottagande TCP får meddelandet vet den vart den ska skicka den. När TCP byggt ihop det uppdelade meddelandet så hämtar den informationen som behövs och där efter ner till den undre nivån så att användaren får det den behöver.
+                </p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-content">
+                <h3>Beskriv de delar som följande url består av: http://webbteknik.abc.se:8082/kurs1/uppg/u1.html#fragor.</h3>
+                <p>Hypertext transfer protocol även kallat http är det protokoll som används för att kommunicera med webben. Webbteknik.abc.se är domännamnet till servern. I det här fallet kan man kalla Webbteknik för en underdomän till abc som är domänen. 8082 är den porten som används för att ansluta till webbplatser. kurs/uppg/u1 är fil sökvägen till u1.html som är filnamet till webbplatsen. #fragor är en referens till ett specifikt stycke så att webbläsaren kan scrolla fram det stycket.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="box-holder-footer">
+            <div class="colorbox">
+                <a href="https://github.com/is223ex"><img class="size" src="img/github.png" alt="Github icon"></a>
+                <a href="https://www.mcdonalds.com/se/sv-se/var-meny.html"><img class="size" src="img/mcdonalds.png" alt="Mcdonalds icon"></a>
+                <a href="https://www.youtube.com/channel/UCPgtKhb0DkGtlzrxHdI_a2A"><img class="size" src="img/youtube.png" alt="Youtube icon"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
